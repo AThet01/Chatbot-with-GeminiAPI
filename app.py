@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # Set Groq API Key
-GROQ_API_KEY = os.getenv("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")# Or set in Streamlit secrets
+GROQ_API_KEY = os.getenv("")# Or set in Streamlit secrets
 
 # Check if the key is loaded correctly
 if not GROQ_API_KEY:
