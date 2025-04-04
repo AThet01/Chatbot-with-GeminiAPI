@@ -14,7 +14,7 @@ st.set_page_config(
     layout="centered",  # Page layout option
 )
 
-GOOGLE_API_KEY = os.getenv(" ")
+GOOGLE_API_KEY = os.getenv(" ") <="Enter Gemini API keys"
 
 # Set up Google Gemini-Pro AI model
 genai.configure(api_key=GOOGLE_API_KEY)
